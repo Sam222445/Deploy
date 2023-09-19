@@ -1,1 +1,0 @@
-web: gunicorn pf03.wsgi --log-file -
