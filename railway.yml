@@ -1,0 +1,6 @@
+build:
+  steps:
+    - name: Install Gunicorn
+      command: pip install gunicorn
+
+web: gunicorn pf03.wsgi
